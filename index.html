@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>eCommerce</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/grid.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="app">
+		<!-- header -->
+		<header class="header">
+			<div class="grid wide">
+
+				<!-- header navbar -->
+				<nav class="header__navbar hide-on-mobile-tablet">
+
+					<!-- header navbar left -->
+					<ul class="header__navbar-list">
+						<li class="header__navbar-item header__navbar-item-has-qr header__navbar-item--separate">
+							Enter the Application
+							<div class="header__qr">
+								<img src="assets/img/qrcode.png" alt="QR code" class="header__qr-img">
+								<div class="header__qr-apps">
+									<a class="header__qr-link">
+										<img src="assets/img/ch_play.png" alt="CH Play" class="header__qr-download-img">
+									</a>
+									<a class="header__qr-link">
+										<img src="assets/img/apstore.png" alt="Appstore" class="header__qr-download-img">
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="header__navbar-item">
+							<span class="header__navbar-item-no-pointer">Connect</span>
+							<a href="#" class="header__navbar-icon-link">
+								<i class="header__navbar-icon fab fa-facebook"></i>
+							</a>
+							<a href="#" class="header__navbar-icon-link">
+								<i class="header__navbar-icon fab fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+					<!--rnd header navbar left -->
+
+					<!-- header navbar right -->
+					<ul class="header__navbar-list">
+						<li class="header__navbar-item header__navbar-item-has-notity">
+							<a href="#" class="header__navbar-item-link">
+								<i class="header__navbar-icon far fa-bell"></i>
+								Notifications
+							</a>
+							<div class="header__notify">
+								<header class="header__notify-header">
+									<h3>Recent Notifications</h3>
+								</header>
+								<ul class="header__notify-list">
+									<li class="header__notify-item header__notify-item-viewed">
+										<a href="#" class="header__notify-link">
+											<img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/4570cf9a-5b84-4e17-8b45-85715ccb1468/air-trainer-1-x-cact-us-corp-archaeo-brown-and-rust-pink-dr7515-200-release-date.jpg" alt="" class="header__notify-img">
+											<div class="header__notify-info">
+												<div class="header__notify-name">Apparel Collection</div>
+												<div class="header__notify-descrition">CACT.US CORP and Nike designers looked into the future and saw an adventurous world...</div>
+											</div>
+										</a>
+									</li>
+									<li class="header__notify-item">
+										<a href="#" class="header__notify-link">
+											<img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/8103acdf-0152-455f-8593-05081805464a/air-trainer-1-x-cact-us-corp-grey-haze-and-dusty-sage-dr7515-001-release-date.jpg" alt="" class="header__notify-img">
+											<div class="header__notify-info">
+												<div class="header__notify-name">Air Trainer 1 x CACT.US CORP
+													Grey Haze and Dusty Sage</div>
+												<div class="header__notify-descrition">Available 5/27 at 9:00 AM
+													Cactus Jack could not be relegated to only music...</div>
+											</div>
+										</a>
+									</li>
+									<li class="header__notify-item header__notify-item-viewed">
+										<a href="#" class="header__notify-link">
+											<img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/a2fb90ed-cf73-445c-b6f4-ab3cc192b760/lebron-retro-ix-regal-pink-and-velvet-brown-dj3908-600-release-date.jpg" alt="" class="header__notify-img">
+											<div class="header__notify-info">
+												<div class="header__notify-name">Regal Pink and Velvet Brown</div>
+												<div class="header__notify-descrition">Available 5/26 at 9:00 AM
+													It's been 10 years since the LeBron 9 made its debut and helped...</div>
+											</div>
+										</a>
+									</li>
+									<li class="header__notify-item">
+										<a href="#" class="header__notify-link">
+											<img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/93b1717a-8453-4fab-9009-6edd7a5a69ec/air-jordan-5-low-x-clot-anthracite-dm4640-036-release-date.jpg" alt="" class="header__notify-img">
+											<div class="header__notify-info">
+												<div class="header__notify-name">Air Jordan 5 Low x CLOT Anthracite</div>
+												<div class="header__notify-descrition">A matchless look gets perfected with the Air Jordan 5 Low x CLOT. Taking inspiration from Chinese culture...</div>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<div class="header__notify-footer">
+									<a href="#" class="header__notity-footer-link">See All</a>
+								</div>
+							</div>
+						</li>
+						<li class="header__navbar-item">
+							<a href="#" class="header__navbar-item-link">
+								<i class="header__navbar-icon far fa-question-circle"></i>
+								Help Center
+							</a>
+						</li>	
+
+						<!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Sign Up</li>
+							<li class="header__navbar-item header__navbar-item--strong">Sign In</li> -->
+
+							<li class="header__navbar-item header__navbar-user">
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYQMi2KJ73GRGRKUD3fQtAJKCUObqzE5Thsoq4mtkxt1ad3cis6A5AfhiSFQ3G3JVw0nI&usqp=CAUF" class="header__navbar-user-img">
+								<span class="header__navbar-user-name">Henry</span>
+
+								<ul class="header__navbar-user-menu">
+									<li class="header__navbar-user-item">
+										<a href="#">My Account</a>
+									</li>
+									<li class="header__navbar-user-item">
+										<a href="#">My Address</a>
+									</li>
+									<li class="header__navbar-user-item">
+										<a href="#">Receipt</a>
+									</li>
+									<li class="header__navbar-user-item header__navbar-user-item--separate">
+										<a href="#">Log out </a>
+									</li>
+								</ul>
+							</li>		
+						</ul>
+						<!--end header navbar right -->
+					</nav>
+
+					<!-- end header-navbar -->
+
+
+					<!-- header-search -->
+					<div class="header-with-search">
+						
+						<label for="header-bars-input" class="header__bars-btn">
+							<i class="fas fa-bars header__bars-icon"></i>
+						</label>
+						
+						<input type="checkbox" class="header__bars-input" id="header-bars-input">
+						<div class="header__mobile">
+							<!-- <div class="header__mobile-search-wrap">
+								<div class="header__mobile-search">
+									<input type="text" class="header__mobile-search-btn" placeholder="Tìm kiếm sản phẩm...">
+									<button class="header__search-moblie-btn">
+										<i class="fas fa-search header__search-mobile-btn-icon"></i>
+									</button>
+								</div>
+							</div> -->
+							<ul class="header__mobile-list">
+								<li class="header__mobile-item">
+									<a href="" class="header__mobile-link">Home</a>
+								</li>
+
+								<li class="header__mobile-item">
+									<a href="" class="header__mobile-link">Your Cart</a>
+								</li>
+								
+								<li class="header__mobile-item">
+									<a href="" class="header__mobile-link">Sign Up</a>
+								</li>
+
+								<li class="header__mobile-item">
+									<a href="" class="header__mobile-link">Sign In</a>
+								</li>
+
+							</ul>
+							<label for="header-bars-input">
+								<i class="fas fa-times header__mobile-close"></i>
+							</label>
+							
+						</div>
+
+						<label for="header-bars-input" class="modal">
+							<div class="modal__overlay"></div>
+						</label>
+						<!-- logo -->
+						<div class="header__logo">
+							<a href="#" class="header__logo-link">
+								<img class="header__logo-img" src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png" alt="">
+							</a>
+						</div>
+
+						<!-- end logo -->
+
+						<!-- search -->
+						<div class="header__search hide-on-mobile">
+							<div class="header__search-input-wrap">
+								<input type="text" class="header__search-input" placeholder="Search Everything here">
+
+								<div class="header__search-history">
+									<h3 class="header__search-history-heading">History</h3>
+									<ul class="header__search-history-list">
+										<li class="header__search-history-item">
+											<a href="#">Doll</a>
+										</li>
+										<li class="header__search-history-item">
+											<a href="#">Unicycle</a>
+										</li>
+
+
+									</ul>
+								</div>
+							</div>
+							<div class="header__search-select">
+								<span class="header__search-select-label">
+									Inside Shop
+								</span>
+								<i class="fas fa-chevron-down header__search-select-icon"></i>
+
+								<ul class="header__search-option">
+									<li class="header__search-option-item header__search-option-item--active">
+										<span>Inside shop</span>
+										<i class="fas fa-check "></i>
+									</li>
+
+									<li class="header__search-option-item">
+										<span>Outside shop</span>
+										<i class="fas fa-check "></i>
+									</li>
+								</ul>
+							</div>
+
+							<button class="header__search-btn">
+								<i class="fas fa-search header__search-btn-icon"></i>
+							</button>
+
+						</div>
+						<!--end search -->
+
+						<!-- cart -->
+						<div class="header__cart">
+							<div class="header__cart-wrap">
+								<span class="header__cart-notice">
+									3
+								</span>
+								<i class="fas fa-shopping-cart header__cart-icon"></i>
+								<div class="header__cart-list">
+									<!-- no cart: header__cart-list--no-cart -->
+									<img src="assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+									<p class="header__cart-no-cart-msg">
+										Empty Cart
+									</p>
+
+									<h4 class="header__cart-heading">Added Products</h4>
+									<ul class="header__cart-list-item">
+										<li class="header__cart-item">
+											<img src="https://static.nike.com/a/images/t_PDP_144_v1/f_auto/9c56ae5f-9876-44cf-b8ea-637e20f5213f/custom-nike-mercurial-superfly-8-academy-by-you.png" class="header__cart-img">
+											<div class="header__cart-item-info">
+												<div class="header__cart-item-head">
+													<h5 class="header__cart-item-name">Nike mercurial superfly 8 elite by you</h5>
+													<div class="header__cart-item-price-wrap">
+														<span class="header__cart-item-price">59$</span>
+														<span class="header__cart-item-multiply">x</span>
+														<span class="header__cart-item-qnt">3</span>
+													</div>
+												</div>
+												<div class="header__cart-item-body">
+													<span class="header__cart-item-description">
+														Category: <span class="header__cart-item-classify">Football Shoes</span>
+													</span>
+													<span class="header__cart-item-remove">Discard</span>
+												</div>
+											</div>
+										</li>
+										<li class="header__cart-item">
+											<img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1b40f27e-54d7-4eda-84a5-ed9d3da18401/pegasus-trail-3-gore-tex-waterproof-trail-running-shoes-w0f5lT.png" class="header__cart-img">
+											<div class="header__cart-item-info">
+												<div class="header__cart-item-head">
+													<h5 class="header__cart-item-name">Nike Pegasus Trail 3 GORE-TEX
+													</h5>
+													<div class="header__cart-item-price-wrap">
+														<span class="header__cart-item-price">79.59$</span>
+														<span class="header__cart-item-multiply">x</span>
+														<span class="header__cart-item-qnt">2</span>
+													</div>
+												</div>
+												<div class="header__cart-item-body">
+													<span class="header__cart-item-description">
+														Category: <span class="header__cart-item-classify">Running Shoes</span>
+													</span>
+													<span class="header__cart-item-remove">Discard</span>
+												</div>
+											</div>
+										</li>
+										<li class="header__cart-item">
+											<img src="https://product.hstatic.net/1000008082/product/2.a_70a5c4e3736342959834f451664c5d58_master.png" class="header__cart-img">
+											<div class="header__cart-item-info">
+												<div class="header__cart-item-head">
+													<h5 class="header__cart-item-name">Kyrie Infinity EP</h5>
+													<div class="header__cart-item-price-wrap">
+														<span class="header__cart-item-price">299.15</span>
+														<span class="header__cart-item-multiply">x</span>
+														<span class="header__cart-item-qnt">1</span>
+													</div>
+												</div>
+												<div class="header__cart-item-body">
+													<span class="header__cart-item-description">
+														Category: <span class="header__cart-item-classify">Basketball Shoes</span>
+													</span>
+													<span class="header__cart-item-remove">Discard</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<button class="btn btn--primary header__cart-view-cart">
+										Watch Cart
+									</button>
+								</div>
+							</div>
+						</div>
+						<!--end cart -->
+					</div>
+
+					<!--end header-search -->
+				</div>
+			</div>
+			<ul class="header__sort-bar">
+				<li class="header__sort-item">
+					<a href="#" class="header__sort-link">Popular</a>
+				</li>
+
+				<li class="header__sort-item header__sort-item--active">
+					<a href="#" class="header__sort-link">Lastest</a>
+				</li>
+
+				<li class="header__sort-item">
+					<a href="#" class="header__sort-link">Best Sellers</a>
+				</li>
+
+				<li class="header__sort-item">
+					<a href="#" class="header__sort-link">Price</a>
+				</li>
+			</ul>
+
+		</header>
+		<!--end header -->
+
+		<!-- container -->
+		<div class="app__container">
+			<div class="grid wide">
+				<div class="row sm-gutter app__content">
+
+					<!-- aside -->
+					<div class="col l-2 m-0 c-0">
+						<nav class="category">
+							<h3 class="category__heading">
+								<i class="fas fa-list-ul category__heading-icon"></i>
+							Category</h3>
+							<ul class="category-list">
+								<li class="category-item catgory-item--active">
+									<a href="#" class="category-item__link">Running Shoes</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Football Shoes</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Training Shoes</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Basketball Shoes</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Tennis Shoes</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Sandals</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Casual Shoes</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Golf Shoes</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="category-item__link">Hiking Shoes</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- end aside -->
+
+					<!-- article -->
+					<div class="col l-10 m-12 c-12">
+
+						<!-- home filter -->
+						<div class="home-filter hide-on-mobile-tablet">
+							<span class="home-filter__label">
+								Sort by
+							</span>
+							<button class="btn home-filter__btn">Popular</button>
+							<button class="btn btn--primary home-filter__btn">Latest</button>
+							<button class="btn home-filter__btn">Best Sellers</button>
+
+							<div class="select-input">
+								<span class="select-input__label">Price</span>
+								<i class="fas fa-chevron-down select-input__icon"></i>
+								<ul class="select-input__list">
+									<li class="select-input__item">
+										<a href="#" class="select-input__link">Price: Low to High</a>
+									</li>
+									<li class="select-input__item">
+										<a href="#" class="select-input__link">Price: High to Low</a> 
+									</li>
+
+								</ul>
+							</div>
+
+							<div class="home-filter__page">
+								<span class="home-filter__page-num">
+									<span class="home-filter__page-current">1</span>/
+									<span class="home-filter__page-total">19</span>
+								</span>
+								<div class="home-filter__page-control">
+									<a href="#" class="home-filter__page-btn home-filter__page-btn--disable">
+										<i class="fas fa-angle-left home-filter__page-icon"></i>
+									</a>
+									<a href="#" class="home-filter__page-btn">
+										<i class="fas fa-angle-right home-filter__page-icon"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!--end home filter -->
+						
+						<nav class="mobile-category">
+							<ul class="mobile-category__list">
+								<li class="mobile-category__item"
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm LS2 đẹp</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+								<li class="mobile-category__item">
+									<a href="#" class="mobile-category__link">Mũ bảo hiểm</a>
+								</li>
+							</ul>
+						</nav>
+						<!-- product -->
+						<div class="home-product">
+							<div class="row sm-gutter">
+								<!-- product item -->
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/bb9a7b1d-ae5f-4bf5-ac21-0089599b23f8/air-zoom-pegasus-38-air-jordan-moss-road-running-shoes-rFNWJS.png)">
+										</div>
+										<h4 class="home-product-item-name">Nike Air Zoom Pegasus 38 A.I.R. Jordan Moss</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">99$</span>
+											<span class="home-product-item__price-current">89$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">22 sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Nike</span>
+											<span class="home-product-item__origin-name">USA</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">10%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f0868b43-b51a-4821-b9e6-4d32f64e5295/wildhorse-7-trail-running-shoes-JNNtbP.png)">
+										</div>
+										<h4 class="home-product-item-name">Nike Wildhorse 7</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">99$</span>
+											<span class="home-product-item__price-current">89$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">22 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Nike</span>
+											<span class="home-product-item__origin-name">USA</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">10%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2a12c252-d8bf-4300-b5e3-79dc00c0e9f5/custom-nike-air-zoom-pegasus-flyease-by-you.png)">
+										</div>
+										<h4 class="home-product-item-name">Nike Air Zoom Pegasus FlyEase By You</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">99$</span>
+											<span class="home-product-item__price-current">89$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">22 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Nike</span>
+											<span class="home-product-item__origin-name">USA</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">10%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5ebe0cd754c04512880fad0b00fc71ad_9366/X_Speedflow.3_Laceless_Firm_Ground_Boots_White_FY3274_01_standard.jpg)">
+										</div>
+										<h4 class="home-product-item-name">X Speedflow.3 Laceless Firm Ground Boots</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">299$</span>
+											<span class="home-product-item__price-current">159$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">19 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Addidas</span>
+											<span class="home-product-item__origin-name">Germany</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">12%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/51cdf085d8a54001ad52ad430109228e_9366/Giay_Ultraboost_Web_DNA_DJen_GY4173_01_standard.jpg)">
+										</div>
+										<h4 class="home-product-item-name">UltraBoost Web DNA Shoes</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">599$</span>
+											<span class="home-product-item__price-current">289$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">30 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Addidas</span>
+											<span class="home-product-item__origin-name">Germany</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">20%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/e3f2672ab6ef4ff5891bae4a004a4279_9366/D.O.N._Issue_3_Shoes_Red_GY0322_01_standard.jpg)">
+										</div>
+										<h4 class="home-product-item-name">D.O.N Issue #3 Shoes</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">299$</span>
+											<span class="home-product-item__price-current">199$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">42 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Addidas</span>
+											<span class="home-product-item__origin-name">Germany</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">45%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://underarmour.scene7.com/is/image/Underarmour/3025082-500_A?rp=standard-30pad|pdpMainDesktop&scl=1&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=566&hei=708&size=536,688)">
+										</div>
+										<h4 class="home-product-item-name">Men's UA Spotlight Lux MC 2.0 Football Cleats</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">160$</span>
+											<span class="home-product-item__price-current">130$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">200 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Under Amour</span>
+											<span class="home-product-item__origin-name">America</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">15%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://images.rogansshoes.com/t_1000/UA_3022173_BWH2.JPG)">
+										</div>
+										<h4 class="home-product-item-name">Men's UA Highlight Hammer D Football Cleats</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">190$</span>
+											<span class="home-product-item__price-current">110$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">50 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Under Amour</span>
+											<span class="home-product-item__origin-name">America</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">40%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4bb84dc5-022a-4f4e-ae8f-80f72bcdf5b2/metcon-7-amp-training-shoes-vsfh3x.png)">
+										</div>
+										<h4 class="home-product-item-name">Nike Metcon 7 AMP</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">232$</span>
+											<span class="home-product-item__price-current">189$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">52 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Nike</span>
+											<span class="home-product-item__origin-name">America</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">20%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+								<div class="col l-2-4 m-4 c-6">
+									<a class="home-product-item" href="#">
+										<div class="home-product-item-img" style="background-image: url(https://static.nike.com/a/images/t_PDP_864_v1/fbce7d6b-68e1-4e55-a56d-af272892a5c2/sb-zoom-blazer-mid-prm-skate-shoes-d2kKTg.png)">
+										</div>
+										<h4 class="home-product-item-name">Nike SB Zoom Blazer Mid PRM</h4>
+										<div class="home-product-item__price">
+											<span class="home-product-item__price-old">300$</span>
+											<span class="home-product-item__price-current">259$</span>
+										</div>
+										<div class="home-product-item__action">
+											<span class="home-product-item__like home-product-item__like--liked">
+												<i class="far fa-heart home-product-item-icon-like-empty"></i>
+												<i class="fas fa-heart home-product-item-icon home-product-item-icon-like-fill"></i>
+											</span>
+											<div class="home-product-item__rating">
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+												<i class="fas fa-star home-product-item__star--gold"></i>
+											</div>
+											<span class="home-product-item__sold">22 Sold</span>
+										</div>
+										<div class="home-product-item__origin">
+											<span class="home-product-item__brand">Nike</span>
+											<span class="home-product-item__origin-name">America</span>
+										</div>
+										<div class="home-product-item__favourite">
+											<i class="fas fa-check"></i>
+											<span>Favourite</span>
+										</div>
+										<div class="home-product-item__sale-off">
+											<span class="home-product-item__sale-off-percent">15%</span>
+											<span class="home-product-item__sale-off-label"></span>
+										</div>
+									</a>
+								</div>
+
+							</div>
+						</div>
+						<!--end product -->
+
+						<!-- pagination -->
+						<ul class="pagination home-product__pagination">
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">
+									<i class="pagination-item__icon fas fa-angle-left"></i>
+								</a>
+							</li>
+
+							<li class="pagination-item pagination-item--active">
+								<a href="#" class="pagination-item__link">1</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">2</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">3</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">4</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">5</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">...</a>
+							</li>
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">14</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="#" class="pagination-item__link">
+									<i class="pagination-item__icon fas fa-angle-right"></i>
+								</a>
+							</li>
+						</ul>
+						<!--end pagination -->
+					</div>
+					<!--end article -->
+				</div>
+			</div>
+		</div>
+		<!--end container -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="grid wide">
+				<div class="grid__row">
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">Customer Service</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Help Center</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Shopping Mall</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Shopping Instruction</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">About us</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Introduction</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Recruitment</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Policy</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">Follow</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">
+									<i class="fab fa-facebook footer-item__icon"></i>
+									Facebook
+								</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">
+									<i class="fab fa-instagram footer-item__icon"></i>
+									Instagram
+								</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">
+									<i class="fab fa-linkedin footer-item__icon"></i>
+								Linkedin</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">Category</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Running Shoes</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Football Shoes</a>
+							</li>
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Training Shoes</a>
+							</li>
+
+							<li class="footer-item">
+								<a href="#" class="footer-item__link">Basketball Shoes</a>
+							</li>
+
+						</ul>
+					</div>
+					<div class="col l-2-4 m-8 c-6">
+						<h3 class="footer__heading">Enter the App</h3>
+						<div class="footer__download">
+							<img src="assets/img/qrcode.png" class="footer__download-qr">
+							<div class="footer__download-apps">
+								<a href="#" class="footer__download-app-link">
+									<img src="assets/img/ch_play.png" class="footer__download-app-img">
+								</a>
+
+								<a href="#" class="footer__download-app-link">
+									<img src="assets/img/apstore.png" class="footer__download-app-img">
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="grid wide">
+					<p class="footer__text">@2022 - Copyright Belongs to TUVA</p>
+				</div>
+			</div>
+		</footer>
+
+		<!--end footer -->
+	</div>
+	<!-- <div class="modal">
+		<div class="modal__overlay"></div>
+		<div class="modal__body"> -->
+
+			<!-- Register form -->
+			<!-- <div class="auth-form">
+				<div class="auth-form__container">
+					<div class="auth-form__header">
+						<h3 class="auth-form__heading">Sign Up</h3>
+						<span class="auth-form__switch-btn">Sign In</span>
+					</div>
+
+					<div class="auth-form__form">
+						<div class="auth-form__group">
+							<input class="auth-form__input" type="text" placeholder="Email">
+						</div>
+						<div class="auth-form__group">
+							<input class="auth-form__input" type="password" placeholder="Password">
+						</div>
+						<div class="auth-form__group">
+							<input class="auth-form__input" type="password" placeholder="Retype Your Password">
+						</div>
+					</div>
+
+					<div class="auth-form__aside">
+						<p class="auth-form__policy-text">I completely agree with <a href="#" class="auth-form__policy-link">Customer Term</a> & 
+							<a href="#" class="auth-form__policy-link">Privacy Policies</a>
+						</p>
+					</div>
+
+					<div class="auth-form__controls">
+						<button class="btn auth-form__controls-back">Back</button>
+						<button class="btn btn--primary">Sign Up</button>
+					</div>
+				</div>
+
+				<div class="auth-form__socials">
+					<a href="#" class="btn btn--with-icon btn--size-s auth-form__socials--facebook">
+						<i class="fab fa-facebook-square auth-form__socials-icon"></i>
+						<span class="auth-form__socials-title">
+							Connect to Facebook
+						</span>
+					</a>
+					<a href="#" class="btn btn--with-icon btn--size-s auth-form__socials--google">
+						<i class="fab fa-google auth-form__socials-icon"></i>
+						<span class="auth-form__socials-title">
+							Connect to Google
+						</span>
+					</a>
+				</div>
+			</div> -->
+
+			<!-- login form -->
+			<!-- <div class="auth-form">
+				<div class="auth-form__container">
+					<div class="auth-form__header">
+						<h3 class="auth-form__heading">Sign In</h3>
+						<span class="auth-form__switch-btn">Sign Up</span>
+					</div>
+
+					<div class="auth-form__form">
+						<div class="auth-form__group">
+							<input class="auth-form__input" type="text" placeholder="Email">
+						</div>
+						<div class="auth-form__group">
+							<input class="auth-form__input" type="password" placeholder="Password">
+						</div>
+					</div>
+
+					<div class="auth-form__aside">
+						<div class="auth-form-help">
+							<a href="#" class="auth-form__help-link auth-form-help-fogot">Forgot password</a>
+							<span class="auth-form-help-separate">
+							</span>
+							<a href="#" class="auth-form__help-link">Need help?</a>
+						</div>
+					</div>
+
+					<div class="auth-form__controls">
+						<button class="btn auth-form__controls-back">TRỞ LẠI</button>
+						<button class="btn btn--primary">Sign In</button>
+					</div>
+				</div>
+
+				<div class="auth-form__socials">
+					<a href="#" class="btn btn--with-icon btn--size-s auth-form__socials--facebook">
+						<i class="fab fa-facebook-square auth-form__socials-icon"></i>
+						<span class="auth-form__socials-title">
+							Sign in with Facebook
+						</span>
+					</a>
+					<a href="#" class="btn btn--with-icon btn--size-s auth-form__socials--google">
+						<i class="fab fa-google auth-form__socials-icon"></i>
+						<span class="auth-form__socials-title">
+							Đăng nhập với google
+						</span>
+					</a>
+				</div>
+			</div> -->
+		<!-- </div>
+		</div>  -->
+	</body>
+	</html>

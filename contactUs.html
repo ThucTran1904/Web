@@ -45,7 +45,7 @@
 				var email = document.getElementById("email").value;
 				var mess = document.getElementById("mess").value;
 				if(fname !="" && lname !="" && email != "" && mess != ""){
-					var myObj = {firsname:fname, lastname:fname , email:email , message:mess};
+					var myObj = {firstname:fname, lastname:lname , email:email , message:mess};
 					console.log(myObj);
 					alert("We have received your information");
 				}
@@ -63,13 +63,13 @@
 
 	  
 		<label for="fname">First Name</label>
-		<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+		<input type="text" id="fname" name="firstname" placeholder="Your first name" required>
 
 		<label for="lname">Last Name</label>
-		<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name" required>
 
 		<label for="email">Email</label>
-		<input type="text" id="email" name="email" placeholder="Your email.." required>
+		<input type="text" id="email" name="email" placeholder="Your email" required>
 
 		<label for="mess">Message</label>
 		<textarea id="mess" name="mess" placeholder="Write something.." style="height:200px" required></textarea>
